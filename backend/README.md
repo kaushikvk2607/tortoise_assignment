@@ -13,10 +13,6 @@ RESTful API for managing device listings and offers in the Tortoise device leasi
 
 ## Setup
 
-### Prerequisites
-- Node.js v18+
-- MongoDB v6+
-
 ### Installation
 
 1. Install dependencies:

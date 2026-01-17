@@ -47,7 +47,6 @@ tortoise/
 │   ├── README.md
 │   └── package.json
 │
-├── Supplier_Device_Listing_PRD.md  # Product requirements
 └── README.md            # This file
 ```
 
