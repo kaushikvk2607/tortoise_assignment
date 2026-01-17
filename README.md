@@ -1,4 +1,4 @@
-# Tortoise Supplier Portal - Full Stack Application
+# Tortoise Supplier Portal
 
 Professional device management portal for Tortoise's device leasing marketplace with MongoDB backend.
 
@@ -60,7 +60,6 @@ tortoise/
 - ✅ Analytics dashboard
 - ✅ MongoDB integration
 - ✅ RESTful API
-- ✅ Professional UI with shadcn/ui patterns
 
 ## Tech Stack
 
@@ -68,16 +67,6 @@ tortoise/
 **Backend:** Node.js, Express, MongoDB, Mongoose  
 **Architecture:** RESTful API, SPA
 
-## Documentation
-
-- [Frontend README](./supplier-portal/README.md) - Detailed frontend documentation
-- [Backend README](./backend/README.md) - API documentation
-- [PRD Document](./Supplier_Device_Listing_PRD.md) - Product requirements
-
 ## Assignment
 
 This project fulfills the Tortoise Product Manager internship assignment to create a supplier-facing portal for managing device listings, pricing, offers, and inventory with real-time synchronization.
-
-## License
-
-Created for Tortoise PM Internship Assignment 2026
