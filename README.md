@@ -2,6 +2,13 @@
 
 Professional device management portal for Tortoise's device leasing marketplace with MongoDB backend.
 
+## Recent Improvements (v2.0)
+
+- **Enhanced UI/UX**: Significantly improved font sizes and readability across the application.
+- **Mobile Responsiveness**: optimized layouts for mobile devices, including wrapping filters, responsive grids, and better touch targets.
+- **Swipe-enabled Sidebar**: New sidebar implementation with touch gestures (swipe right to open, swipe left to close) and smooth animations.
+- **Desktop Visibility**: Fixed sidebar visibility issues on larger screens.
+
 ## Quick Start
 
 ### 1. Start MongoDB
@@ -21,7 +28,7 @@ Backend runs on: http://localhost:5000
 
 ### 3. Setup Frontend (Terminal 2)
 ```bash
-cd supplier-portal
+cd frontend
 npm install
 npm run dev
 ```
@@ -31,7 +38,7 @@ Frontend runs on: http://localhost:5173
 
 ```
 tortoise/
-├── supplier-portal/       # React frontend
+├── frontend/             # React frontend (Vite)
 │   ├── src/
 │   │   ├── components/   # UI components
 │   │   ├── services/     # API layer
@@ -52,18 +59,19 @@ tortoise/
 
 ## Features
 
-- ✅ Device listing management (CRUD)
-- ✅ Real-time stock updates
-- ✅ Multi-tier lease pricing
-- ✅ Offer management
-- ✅ Analytics dashboard
-- ✅ MongoDB integration
-- ✅ RESTful API
+- ✅ **Device Listing Management**: Create, read, update, and delete device listings.
+- ✅ **Real-time Stock Updates**: Monitor inventory levels with visual indicators.
+- ✅ **Multi-tier Lease Pricing**: Manage pricing for different lease durations (12m, 18m, 24m).
+- ✅ **Offer Management**: Create and track promotional offers.
+- ✅ **Analytics Dashboard**: Visual insights into revenue, stock levels, and top-performing devices.
+- ✅ **Responsive Design**: Fully functional on mobile, tablet, and desktop.
+- ✅ **Touch Gestures**: Swipe-enabled sidebar for mobile browsing.
+- ✅ **MongoDB Integration**: Robust data persistence.
 
 ## Tech Stack
 
-**Frontend:** React, Vite, Tailwind CSS, Lucide Icons  
-**Backend:** Node.js, Express, MongoDB, Mongoose  
+**Frontend:** React, Vite, Tailwind CSS, Lucide Icons
+**Backend:** Node.js, Express, MongoDB, Mongoose
 **Architecture:** RESTful API, SPA
 
 ## Assignment
